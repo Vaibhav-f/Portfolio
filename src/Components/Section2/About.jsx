@@ -16,7 +16,7 @@ I'm currently looking for internship or freelance opportunities where I can grow
        </p>
        </div>
 <div>
-  <img className='w-180 py-20 ' src={Avtar1} alt="" />
+  <img className='w-180 py-20  ' src={Avtar1} alt="" />
 
 </div>
   
