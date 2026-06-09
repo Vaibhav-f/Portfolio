@@ -7,8 +7,8 @@ const Form = () => {
 
   return (
     <section id='Contact me'>
-    <div className='py-8 px-20' >
-        <div className='border-2 border-amber-100 rounded-xl py-10 h-115 text-white  w-80 '>
+    <div className='py-8 px-4 md:px-10' >
+        <div className='border-2 border-amber-100 rounded-xl p-6 md:p-8 text-white w-full max-w-md lg:w-xs mask-x-from-98% '>
 
 
           <form onSubmit={(e) => {
@@ -22,31 +22,31 @@ const Form = () => {
 
           <input 
          
-          className='bg-gray-500 h-10 w-65 rounded-xl ml-3 p-3 '  type="text" name="name" id="" maxLength={20}  required placeholder='Enter Your Name '/>
+          className='bg-gray-500 h-10 w-full rounded-xl p-3 '  type="text" name="name" id="" maxLength={20}  required placeholder='Enter Your Name '/>
 <br /><br />
 
 
            <input
            
-           className='bg-gray-500 h-10 w-65 rounded-xl ml-3 p-3' type="tel" name="phone" id="" maxLength={10} minLength={10} required placeholder='Enter Your Number'/><br />
+           className='bg-gray-500 h-10 w-full rounded-xl p-3' type="tel" name="phone" id="" maxLength={10} minLength={10} required placeholder='Enter Your Number'/><br />
            <br />
 
 
             <input
 
             
-            className='bg-gray-500 h-10 w-65 rounded-xl ml-3 p-3' type="email" name="email" id=""   pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required placeholder='Enter Your E-mail'/><br />
+            className='bg-gray-500 h-10 w-full rounded-xl p-3' type="email" name="email" id=""   pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required placeholder='Enter Your E-mail'/><br />
            <br />
 
 
            <textarea 
           
-           className='bg-gray-500  w-65 rounded-xl ml-3 p-3 overflow-hidden' placeholder='Message' name="message" id="" rows={5}>
+           className='bg-gray-500 w-full rounded-xl p-3' placeholder='Message' name="message" id="" rows={5}>
            </textarea>
            <br />
            <br />
 
-           <button className='bg-cyan-500 rounded-xl cursor-pointer active:scale-95 px-3 py-1 text-xl translate-x-30' type='submit'>
+           <button className='bg-cyan-500 rounded-xl cursor-pointer active:scale-95 px-4 py-2 text-lg w-full' type='submit'>
             Submit
            </button>
            </form>
