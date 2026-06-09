@@ -19,9 +19,9 @@ const Project = () => {
       <p className=' px-3 py-3'>"Built entirely by me from scratch — no templates, no shortcuts. This portfolio uses React, Tailwind CSS, and React Hooks to present my work, skills, and growth as a fresher frontend developer."</p>
       <br />
      
-        <a className='bg-cyan-500 rounded-xl font-semibold text-xl px-4 py-1 ml-10 ' href="https://www.youtube.com/watch?v=sm2hNJ9c8M8&list=RD299TgKg1Mbo&index=2"> Live Demo</a>
+        <a className='bg-cyan-500 rounded-xl font-semibold text-xl px-4 py-1 ml-10 ' href="https://portfolio-omega-brown-37.vercel.app/"> Live Demo</a>
       
-     <a className='bg-cyan-500 rounded-xl font-semibold text-xl px-4 py-1 ml-10 ' href="https://www.youtube.com/watch?v=sm2hNJ9c8M8&list=RD299TgKg1Mbo&index=2"> Github Link</a>
+     <a className='bg-cyan-500 rounded-xl font-semibold text-xl px-4 py-1 ml-10 ' href="https://github.com/Vaibhav-f/Portfolio"> Github Link</a>
       
       </div>
      
