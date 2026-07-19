@@ -1,9 +1,9 @@
 import React from 'react'
-import html from '../../assets/html.png'
-import css from '../../assets/css.png'
-import react from '../../assets/react.png'
-import js from '../../assets/js.png'
-import tail from '../../assets/tail.png'
+import html from '../../assets/html.webp'
+import css from '../../assets/css.webp'
+import react from '../../assets/react.webp'
+import js from '../../assets/js.webp'
+import tail from '../../assets/tail.webp'
 
 const Skill = () => {
   return (
